@@ -1,6 +1,6 @@
 import React from "react";
 // import HeroImage from "../assets/HeroImage.png";
-import IMG_20240322_144655 from "../assets/HeroImage.png";
+import IMG_20240322_144655 from "../assets/IMG_20240328_184250.png";
 import { IoIosArrowForward } from "react-icons/io";
 const Home = () => {
   return (
@@ -14,8 +14,9 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            ◆ I am a third-year Computer engineering student at KKWIEER, Nashik.{" "}
-            <br />◆ I have Successfully developed an Educational YouTube Channel
+            ◆ I am a third-year Computer engineering student at KKWIEER, Nashik.
+            <br />
+            ◆ I have Successfully developed an Educational YouTube Channel
             named BK PRAVIN DESALE with the support of my parents, which was
             started in June 2020 and within 3 years it has completed 5 Lacks +
             Subscribers.
@@ -30,6 +31,7 @@ const Home = () => {
               </span>
             </button>
           </div>
+
         </div>
 
         <div>
@@ -39,6 +41,7 @@ const Home = () => {
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
+        
       </div>
     </div>
   );
