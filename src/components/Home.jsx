@@ -1,7 +1,8 @@
 import React from "react";
 // import HeroImage from "../assets/HeroImage.png";
 import IMG_20240322_144655 from "../assets/IMG_20240328_184250.png";
-import { IoIosArrowForward } from "react-icons/io";
+// import { IoIosArrowForward } from "react-icons/io";
+import { HiDownload } from "react-icons/hi";
 const Home = () => {
   return (
     <div
@@ -14,34 +15,41 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            ◆ I am a third-year Computer engineering student at KKWIEER, Nashik.
-            <br />
-            ◆ I have Successfully developed an Educational YouTube Channel
-            named BK PRAVIN DESALE with the support of my parents, which was
-            started in June 2020 and within 3 years it has completed 5 Lacks +
-            Subscribers.
+          Third-year Computer Engineering student at KKWIEER, Nashik, mastering Full Stack development (MERN) and enhancing problem-solving skills in DSA. Successful creator of "BK PRAVIN DESALE" YouTube channel with 5 Lacks + Subscribers. Hardworking Person, use Rajyoga Meditation for self-confidence and concentration.
           </p>
 
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            {/* <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
               Portfolio
               <span className="group-hover:rotate-90 duration-300 ">
                 {" "}
                 <IoIosArrowForward size={20} className=" mt-1 ml-1" />{" "}
               </span>
-            </button>
-          </div>
+            </button> */}
 
+            <a
+              href={"Resume_Yashraj_Desale.pdf"}
+              download={true}
+              target="_blank"
+              rel="noreferrer"
+              className=" text-white w-fit px-7 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500 scroll-smooth transition-colors "
+            >
+              Resume
+              <span className="">
+                {" "}
+                <HiDownload size={20} className="mt-1 ml-2" />{" "}
+              </span>
+            </a>
+          </div>
         </div>
 
-        <div>
+        <div className="pt-2">
           <img
             src={IMG_20240322_144655}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
-        
       </div>
     </div>
   );
