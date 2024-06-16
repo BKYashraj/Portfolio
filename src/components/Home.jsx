@@ -28,7 +28,7 @@ const Home = () => {
             </button> */}
 
             <a
-              href={"/Yashraj_Pravin_Desale.pdf"}
+              href={"Yashraj_Pravin_Desale.pdf"}
               download={true}
               target="_blank"
               rel="noreferrer"
