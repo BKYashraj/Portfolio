@@ -21,7 +21,7 @@ const About = () => {
           PRAVIN DESALE</b> with the support of my parents, which was started in
           June 2020 and within 3 years it has completed <b>5 Lacks + Subscribers.</b> <br />
           ◆ Regular student of Prajapita Brahmakumari Ishwariya Vishwavidyalaya. <br />
-          ◆ I presented a paper on the topic Future of Ethanol based vehicles in India and secured 1st Prize in National Level Students Conference Organised by K.K. Wagh Institute of Engineering Education and Research, Nashik. <br />
+          ◆ My paper, "Ethanol-Powered Vehicles: Advancements in Flex-Fuel Technology and Supply Chain Integration" ,has been accepted by Springer. <br />
           ◆ Website/ERP Coordinator of Debugger's Club KKWIEER. <br />
           ◆ Member of Rotaract Club Of Nashik Nine Hills.
         </p>
