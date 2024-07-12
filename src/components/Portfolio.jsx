@@ -41,7 +41,7 @@ const Portfolio = () => {
           <p className="py-5">Check out some of my work right here</p>
         </header>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-1 sm:px-0">
           {portfolios.map(({ id, src, title, demoLink, codeLink }) => (
             <div
               key={id}
