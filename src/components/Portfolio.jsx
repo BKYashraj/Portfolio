@@ -1,35 +1,30 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import pizza from "../assets/Project Images/PizzaApp.png";
+import debuggers from "../assets/Project Images/debuggers.png";
+import email from "../assets/Project Images/maxresdefault.jpg";
+
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: pizza,
+      title: "Pizza Corner",
+      demoLink: "https://pizza-app-frontend-tau.vercel.app/",
+      codeLink: "https://github.com/BKYashraj/PizzaApp-Backend",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: debuggers,
+      title: "DEBUGGERS' CLUB WEBSITE",
+      demoLink: "https://debuggersclub.netlify.app/",
+      codeLink: "https://github.com/BKYashraj/debuggersclubsite",
     },
     {
       id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
+      src: email,
+      title: "EMAIL, SMS SPAM CLASSIFIER",
+      demoLink: "https://github.com/BKYashraj/Email-SMS-Spam-Classifier",
+      codeLink: "https://github.com/BKYashraj/Email-SMS-Spam-Classifier",
     },
   ];
 
@@ -39,28 +34,40 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
-          </p>
-          <p className="py-6">Check out some of my work right here</p>
-        </div>
+        <header className="pb-3">
+          <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Projects
+          </h2>
+          <p className="py-5">Check out some of my work right here</p>
+        </header>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
+          {portfolios.map(({ id, src, title, demoLink, codeLink }) => (
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg transition-transform duration-200 transform hover:scale-105"
+            >
+              <img src={src} alt={title} className="rounded-md" />
+              <h3 className="text-lg font-semibold text-center mt-2">
+                {title}
+              </h3>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 bg-gray-700 rounded hover:bg-gray-600 text-center"
+                >
+                  Live Link
+                </a>
+                <a
+                  href={codeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-3 duration-200 bg-gray-700 rounded hover:bg-gray-600 text-center"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
@@ -69,4 +76,5 @@ const Portfolio = () => {
     </div>
   );
 };
-export default Portfolio
+
+export default Portfolio;
