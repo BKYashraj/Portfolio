@@ -14,12 +14,12 @@ const About = () => {
         </div>
 
         <p className="text-lg mt-5">
-          ◆ I am a third-year Computer engineering student at KKWIEER, Nashik. <br />
+          ◆ I am a 4th-year Computer engineering student at KKWIEER, Nashik. <br />
           ◆ I am learning MERN Stack web development as well as improving my
           problem-solving skills in DSA. <br />
           ◆ I have Successfully developed an Educational YouTube Channel named <b>BK
           PRAVIN DESALE</b> with the support of my parents, which was started in
-          June 2020 and within 3 years it has completed <b>5 Lacks + Subscribers.</b> <br />
+          June 2020 and within 3 years it has completed <b>6 Lacks + Subscribers.</b> <br />
           ◆ Regular student of Prajapita Brahmakumari Ishwariya Vishwavidyalaya. <br />
           ◆ My paper, "Ethanol-Powered Vehicles: Advancements in Flex-Fuel Technology and Supply Chain Integration" ,has been accepted by Springer. <br />
           ◆ Website/ERP Coordinator of Debugger's Club KKWIEER. <br />
