@@ -1,30 +1,30 @@
 import React from "react";
 import pizza from "../assets/Project Images/PizzaApp.png";
 import debuggers from "../assets/Project Images/debuggers.png";
-import email from "../assets/Project Images/maxresdefault.jpg";
+import hackathon from "../assets/Project Images/hack.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: hackathon,
+      title: "Hackathon Research Hub",
+      demoLink: "https://hackathon-research-hub.vercel.app/",
+      codeLink: "https://github.com/BKYashraj/Hackathon-Experience-Frontend",
+    },
+    {
+      id: 2,
       src: pizza,
       title: "Pizza Corner",
       demoLink: "https://pizza-app-frontend-tau.vercel.app/",
       codeLink: "https://github.com/BKYashraj/PizzaApp-Backend",
     },
     {
-      id: 2,
+      id: 3,
       src: debuggers,
       title: "DEBUGGERS' CLUB WEBSITE",
       demoLink: "https://debuggersclub.netlify.app/",
       codeLink: "https://github.com/BKYashraj/debuggersclubsite",
-    },
-    {
-      id: 3,
-      src: email,
-      title: "EMAIL, SMS SPAM CLASSIFIER",
-      demoLink: "https://github.com/BKYashraj/Email-SMS-Spam-Classifier",
-      codeLink: "https://github.com/BKYashraj/Email-SMS-Spam-Classifier",
     },
   ];
 

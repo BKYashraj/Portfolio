@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Third-year Computer Engineering student at KKWIEER, Nashik, mastering Full Stack development (MERN) and enhancing problem-solving skills in DSA. Successful creator of "BK PRAVIN DESALE" YouTube channel with 5 Lacks + Subscribers. Hardworking Person, use Rajyoga Meditation for self-confidence and concentration.
+          Final-year Computer Engineering student at KKWIEER, Nashik, mastering Full Stack development (MERN) and enhancing problem-solving skills in DSA. Successful creator of "BK PRAVIN DESALE" YouTube channel with 6 Lacks + Subscribers. Hardworking Person, use Rajyoga Meditation for self-confidence and concentration.
           </p>
 
           <div>
@@ -28,7 +28,7 @@ const Home = () => {
             </button> */}
 
             <a
-              href={"Yashraj Desale Resume.pdf"}
+              href={"Yashraj_Desale_Latest.pdf"}
               download={true}
               target="_blank"
               rel="noreferrer"
