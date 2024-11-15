@@ -16,7 +16,7 @@ const Portfolio = () => {
       id: 2,
       src: pizza,
       title: "Pizza Corner",
-      demoLink: "https://pizza-app-frontend-tau.vercel.app/",
+      demoLink: "https://pizzacorner.vercel.app/",
       codeLink: "https://github.com/BKYashraj/PizzaApp-Backend",
     },
     {
