@@ -1,5 +1,5 @@
 import React from "react";
-import IMG_20240322_144655 from "../assets/IMG_20240328_184250.png";
+import IMG_20240322_144655 from "../assets/HeroImage.png";
 import { HiDownload } from "react-icons/hi";
 
 const Home = () => {
@@ -31,11 +31,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="pt-8 md:pt-0">
+        <div className="pt-5 md:pt-0">
           <img
             src={IMG_20240322_144655}
             alt="My Profile"
-            className="rounded-2xl mx-auto w-4/5 md:w-3/4 lg:w-2/3 transform hover:scale-105 transition-transform duration-300 shadow-lg"
+            className="rounded-2xl mx-auto w-5/5 md:w-4/4 lg:w-3/3 transform hover:scale-105 transition-transform duration-300 shadow-lg"
           />
         </div>
       </div>

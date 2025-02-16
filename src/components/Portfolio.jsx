@@ -23,7 +23,7 @@ const Portfolio = () => {
       id: 3,
       src: debuggers,
       title: "DEBUGGERS' CLUB WEBSITE",
-      demoLink: "https://debuggersclub.netlify.app/",
+      demoLink: "https://debuggersclub.vercel.app/",
       codeLink: "https://github.com/BKYashraj/debuggersclubsite",
     },
   ];
